@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  /* background: url(../images/grunge_brownBK.png) no-repeat ; */
+  /* border: 2px solid red; */
+  padding: 50px 20px;
+
+}
+.post1 p{
+ color: #000;
+}
+ h3{
+ color: #000 !important;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  /* margin-top: 30px; */
+  margin-bottom: 0;
+}
+
+.logo h1 {
+  width: 500px;
+  /* margin: auto; */
+}
+.logo h1 span{
+  font-size: 18px;
+  width: 500px;
+  /* margin: auto; */
+}
+
+.ocarousel_window_slides {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.directions {
+  width: 50px;
+  margin: 10px auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+.directions a {
+  font-size: 30px;
+}
+
+#flexiselDemo3 {
+  display: flex;
+  justify-content: space-between;
+}
+#flexiselDemo3 li img {
+  width: 50px;
+  height: 50px;
+}
+#flexiselDemo3 li h3 {
+  font-size: 17px;
+  text-align: center;
+}
+#flexiselDemo3 li p {
+  text-align: center;
+}
+#flexiselDemo3 li  {
+  width: 160px;
+ display: flex;
+ flex-direction: column;  
+align-items: center;
+/* border: 1px solid green; */
+/* justify-content: space-between; */
+}
+.socials {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_nav ul li {
+  margin-bottom: 10px;
+}
+.footer_nav ul li a{
+  font-size: 20px;
+}
+
+#general-info span {
+  margin-left: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.contact-form .textbox {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.contact-form .area {
+  height: 80px;
+  margin-bottom: 10px;
+}
+.contact-form .button {
+  display: block; 
+  width: 150px;  
+  height: 50px;
+  margin-bottom: 10px;
+
+  color: black;
+}
